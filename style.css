@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+h1{
+  font-family: 'Times New Roman', Times, serif;
+  font-size:  40px ;
+}
+.video{
+  text-align: center;
+}
+
+
+.recommend{
+  background-color: #444240;
+  color: #fff;
+  padding: 10px;
+  margin: 20px;
+  text-align: center;
+  border: #111;
+}
+
+
+header{
+    background-color: #333 ;
+    color: #fff;
+    padding: 60px 0 ;
+    text-align: center;
+
+
+}
+nav{
+   background-color: #111;
+   padding: 20px ;
+   text-align: center;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  a{
+color: #fff;
+text-decoration: none;
+padding: 0 50px;
+
+
+  }
+
+
+}
+main{
+  padding:50px;
+ 
+  .main-container{
+    background-color: #ccc;
+    padding: 20px;
+
+
+
+
+
+
+    .main-title{
+      text-decoration: underline;
+
+
+      }
+
+
+      .main-info{
+        margin: 20px ;
+      }
+
+
+  }
+     h3{
+        text-decoration: underline;
+
+
+     }
+}
+.recommend-products{
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+ 
+}
+  .products {
+    display: flex;            
+    flex-wrap: nowrap;          
+    gap: 50px;                  
+    padding: 30px;              
+    overflow-x: auto;          
+  }
+
+
+  .item {
+    flex: 0 0 250px;          
+    background: #fff;          
+    border: 1px solid #ddd;    
+    border-radius: 12px;        
+    text-align: center;        
+    padding: 15px;              
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    transition: transform 0.2s;
+  }
+
+
+ 
+
+
+  .item img {
+    width: 100%;                
+    height: auto;              
+    border-radius: 8px;        
+    margin-bottom: 10px;        
+  }
+
+
+  .item .name {
+    font-size: 16px;            
+    font-weight: bold;          
+    margin: 10px 0 5px;        
+  }
+
+
+  .item .price {
+    color: #e60000;            
+    font-size: 25px;            
+    font-weight: bold;          
+    margin-bottom: 10px;        
+  }
+
+
+ 
+ 
+
+
+  .item .btn {
+    display: inline-block;      
+    text-decoration: none;      
+    padding: 10px 20px;        
+    border-radius: 6px;        
+    background-color: #ff0b0b;  
+    color: #fff;                
+    font-size: 15px;            
+    font-weight: bold;          
+  }
+ .btn{
+  display: inline-block;
+  text-decoration: none;
+  padding: 8px 15px;
+  border-radius: 8px;
+  background-color: #111;
+  color: #fff;
+  font-size: 17px;
+
+
+ }
+
+
+footer{
+  background-color: #111;
+  padding: 20px;
+  color: #fff;
+  text-align: center;
+}
